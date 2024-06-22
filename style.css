@@ -1,0 +1,107 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1{
+    background-image: url(images/pexels-apasaric-1386454.jpg);
+    height: 100%;
+}
+
+.pimg2{
+    background-image: url(images/bald-eagle-6481346_1280.jpg);
+    height: 500px;
+}
+
+.pimg3{
+    background-image: url(images/gary-bendig-WPmPsdX2ySw-unsplash.jpg);
+    height: 500px;
+}
+
+.pimg4{
+    background-image: url(images/peacock-3080897_1280.jpg);
+    height: 500px;
+}
+
+.pimg5{
+    background-image: url(images/pexels-daniyal-ghanavati-10741-110812.jpg);
+    height: 500px;
+}
+
+.pimg6{
+    background-image: url(images/richard-lee-xWQcud4Xtr4-unsplash.jpg);
+    height: 500px;
+}
+
+.pimg7{
+    background-image: url(images/pexels-sevenstormphotography-981893.jpg);
+    height: 500px;
+}
+
+.pimg8{
+    background-image: url(images/pexels-pixabay-36845.jpg);
+    height: 100%;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg7, .pimg8{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg6{
+    background-position: 0 -1600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtBg{
+    background-color: #333;
+    color: white;
+    font-size: 4rem;
+    letter-spacing: 10px;
+    padding: 30px;
+}
+
+.section{
+    padding: 20px 50px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+}
+
+.section-dark{
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.footer-section{
+    width: 100%;
+    min-height: 75px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content{
+    font-size: 1.3rem;
+    color: #f4f4f4;
+}
