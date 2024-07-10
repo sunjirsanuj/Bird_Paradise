@@ -76,6 +76,7 @@ html, body{
     font-size: 4rem;
     letter-spacing: 10px;
     padding: 30px;
+    opacity: 1;
 }
 
 .section{
